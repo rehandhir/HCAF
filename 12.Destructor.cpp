@@ -16,4 +16,23 @@ void fun()
 int main()
 {
     fun();
-}
+
+    
+    public:
+	void set_data(int x ,int y)
+	{
+		a=x;
+		b=y;
+	}
+	void show_dta()
+	{
+		cout<<"a= "<<a<<"b="<<b<<endl;
+	}
+	complex add(complex c)
+	{
+		complex t;
+		t.a=a+c.a;
+		t.b=b+c.b;
+		return(t);
+	}
+};
